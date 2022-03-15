@@ -1,0 +1,20 @@
+body{
+    background-color: #333;
+}
+
+.transition{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin: 150px;
+
+
+    transition-property: background-color, border-radius;
+    transition-duration: 1000ms, 2000ms;
+}
+
+/* What goes in transition-property must also go in the trigger source. */
+.transition:hover{
+    background-color:red;
+    border-radius: 50%;
+}

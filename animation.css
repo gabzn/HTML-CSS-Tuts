@@ -1,0 +1,36 @@
+body{
+    background: #333;
+}
+
+.animation{
+    width: 300px;
+    height: 300px;
+    background: white;
+    box-sizing: border-box;
+    border: 0.5rem solid rgb(95, 55, 55);
+    position: relative;
+
+    animation-name: movearound;
+    animation-duration: 3500ms;
+    animation-iteration-count: infinite;
+    /* animation-delay: 2000ms; */
+    /* animation-direction: reverse; */
+    /* animation-timing-function: ease-in; */
+    animation-fill-mode: forwards;
+}
+
+/* @keyframes movearound {
+    0% {background-color: white; left: 0px; top: 0px; border-radius: 0;}
+    25%{background-color: red; left: 100px; top: 0px; border-radius: 1rem;}
+    50%{background-color: pink; left: 100px; top: 100px; border-radius: 2rem;}
+    75%{background-color:greenyellow; left: 0px; top: 100px; border-radius: 3rem;}
+    100%{background-color: white left; left: 0px; top: 0px; border-radius: 4rem;}
+} */
+
+@keyframes movearound {
+    0% {background-color: white;  border-radius: 0;}
+    25%{background-color: red;  border-radius: 1rem;}
+    50%{background-color: pink;  border-radius: 2rem;}
+    75%{background-color:greenyellow;  border-radius: 3rem;}
+    100%{background-color: white left;  border-radius: 4rem;}
+}
