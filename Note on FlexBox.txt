@@ -1,0 +1,23 @@
+flex-direction: column | row  (Default is row)
+
+column means the item will be displayed from top to bottom
+1
+2
+3
+
+row means the item will be displayed from left to right
+1 2 3
+
+----------------------------------------------------------
+
+justify-content: flex-start | center | flex-end | space-between | space-around
+
+When direction is column, it moves the item from y-axis.
+When direction is row, it moves the item from x-axis.
+
+----------------------------------------------------------
+
+align-items: flex-start | center | flex-end | stretch
+
+When direction is column, it moves the item from x-axis.
+When direction is row, it moves the item from y-axis
